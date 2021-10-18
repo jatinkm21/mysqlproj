@@ -1,0 +1,7 @@
+<h1>Entries</h1>
+
+<%= form_with local: true,method: :post do |f| %>   
+    <%= f.label :"first name" %>
+    <%= f.text_field "firstname" %>
+    <%= f.submit  %>
+<% end %>
